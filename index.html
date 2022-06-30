@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- <div class="bg-danger"> -->
+    <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col">
+        <!-- <span>HEADER</span></div>  -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mt-5">
+
+          <a class="navbar-brand" href="#">SITE LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop"
+            aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTop">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">О нас</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Блог
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">О собачках</a></li>
+                  <li><a class="dropdown-item" href="#">О котиках</a></li>
+                  <li><a class="dropdown-item" href="#">О рыбках</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbar" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Мы в соц.сетях
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbar">
+                  <li><a class="dropdown-item" href="#">Facebook</a></li>
+                  <li><a class="dropdown-item" href="#">Instagram</a></li>
+                  <li><a class="dropdown-item" href="#">Twitter</a></li>
+                  <li><a class="dropdown-item" href="#">You Tube</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+        <form action="post">
+          <div class="mb-3">
+            <label class="form-label" for="login">Логин</label>
+            <input class="form-control" id="login" type="text" placeholder="Логин">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="password">Пароль</label>
+            <input class="form-control" id="password" type="text" placeholder="Пароль">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control" id="email" type="email" placeholder="Email">
+          </div>
+          <div>
+            <label class="form-label" for="price">Стоимость товара</label>
+            <div class="input-group mb-3">
+              <input id="price" type="number" class="form-control" placeholder="Стоимость товара">
+              <span class="input-group-text">Грн.</span>
+            </div>
+          </div>
+          <div>
+            <div class="mb-3 d-flex gap-3">
+              <button class="btn btn-outline-light" type="submit">Отправить</button>
+              <button class="btn btn-outline-light" type="reset">Сбросить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xxl-7 col-xl-8">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Всё о бенгальской породе кошек
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Бенгальская порода кошек возникла в результате целенаправленного скрещивания дикого азиатского кота
+                  с домашней кошкой. Основательница породы Джейн Милл - американский биолог, хотела, чтобы люди смогли
+                  содержать дома ласковое и ручное животное, напоминающее дикого жителя джунглей, и перестали
+                  истреблять лесного хищника в его естественной среде обитания. Бенгальские кошки впервые приняли
+                  участие в выставке TICA в 1991 г, а на сегодняшний день порода признана большинством
+                  фелинологических организаций.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Французский бульдог
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Французский бульдог – одна из самых популярных пород собак. Их предками были отважные бойцовые и
+                  травильные псы. Современные же бульдоги унаследовали от них бесстрашие и активность, но со временем
+                  приобрели дружелюбие и веселый нрав, за который их так любят владельцы. К тому же маленькие питомцы
+                  отлично чувствуют себя в квартирах, а еще с ними легко путешествовать, поэтому их часто заводят у
+                  себя именно жители городов.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Домашнии попугаи
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Птицы – это великолепные домашние питомцы, и наиболее популярным вариантом, конечно же, являются
+                  попугаи. Они забавны, дружелюбны и чрезвычайно общительны. За многими видами достаточно просто
+                  ухаживать, однако все они требуют определенных усилий и времени, поэтому хорошо подумайте о своем
+                  решении, прежде чем отправиться в зоомагазин. Примите во внимание размер вашего жилища, стоимость
+                  птицы и тот факт, что всем им без исключения нужно много внимания.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Аквариумные рыбы
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Аквариумные рыбки привлекают наше внимание в первую очередь своими яркими необычными окрасами. Это
+                  потом уже могут появиться «любимчики», которые возможно импонируют нам не столько броским внешним
+                  видом, сколько своим поведением и пользой для аквариума. Но так или иначе, красота расцветок
+                  аквариумных рыбок остаётся главной «изюминкой» аквариумистики.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-4 col-lg-6 order-xl-first">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/kitten.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Первый слайд</h5>
+                <p>Бенгальская кошка</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="image/french_bulldog.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Второй слайд</h5>
+                <p>Французский бульдог</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="image/popugai-domashnie-vidy-porody-dlya-doma.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Третий слайд</h5>
+                <p>Попугай</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="image/fish.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Четвёртый слайд</h5>
+                <p>Аквариумная рыба</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+      <div class="col-xxl-2 col-xl-12 col-lg-6"><span>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Выберите товар</option>
+            <option value="1">Бенгальская кошка</option>
+            <option value="2">Французский бульдог</option>
+            <option value="3">Попугай</option>
+            <option value="4">Аквариумные рыбки</option>
+            <option value="5">другое</option>
+          </select>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+          <ul class="nav nav-pills nav-fill mt-4">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Блог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контактная информация</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Услуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Отзывы</a>
+            </li>
+          </ul>
+
+          <footer class="page-footer font-small bg-primary mt-4">
+            <p class="footer-copyright text-center py-3">
+              © Iryna Soloviova
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

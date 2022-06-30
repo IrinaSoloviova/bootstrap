@@ -1,0 +1,27 @@
+div > span {
+display: block;
+/* background-color: red; */
+color: white;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+max-width: 100%;
+height: auto;
+}
+
+.grid > * {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border: 2px solid black;
+
+}
+
+.grid .g-col-6 {
+    grid-column: auto/span 6;
+}
+
+.container {
+    background-color: beige;
+}
